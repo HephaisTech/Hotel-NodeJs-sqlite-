@@ -1,0 +1,36 @@
+{
+    "name": "hotel",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "test",
+        "server": "nodemon index.js",
+        "prod": "node index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/HephaisTech/Hotel-NodeJs-sqlite-.git"
+    },
+    "author": "Ramius",
+    "license": "GPL-3.0-or-later",
+    "bugs": {
+        "url": "https://github.com/HephaisTech/Hotel-NodeJs-sqlite-/issues"
+    },
+    "homepage": "https://github.com/HephaisTech/Hotel-NodeJs-sqlite-#readme",
+    "dependencies": {
+        "express": "^4.18.1",
+        "jsonwebtoken": "^8.5.1",
+        "multer": "^1.4.5-lts.1",
+        "mysql": "^2.18.1",
+        "sequelize": "^6.21.3",
+        "sqlite3": "^5.0.9"
+    },
+    "devDependencies": {
+        "chai": "^4.2.0",
+        "chai-http": "^4.0.0",
+        "mocha": "^7.1.1",
+        "nodemon": "^2.0.19",
+        "supertest": "^4.0.2"
+    }
+}
